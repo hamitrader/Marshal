@@ -3,8 +3,8 @@ print(f'\x1b[1;92m[√] PLEASE WAIT CHECKING UPDATE...')
 os.system('git pull')
 os.system("pip uninstall urllib3 requests chardet idna certifi -y");os.system("pip install urllib3 requests chardet idna certifi")
 os.system("clear")
-print('\033[1;32m [•] JOIN ONLY TRADING WhATSAP GROUP')
-os.system('xdg-open https://chat.whatsapp.com/GsR7eXGFlrjIfQiBcc8dc7')
+print('\033[1;32m [•] JOIN FB GROUP')
+os.system('xdg-open https://facebook.com/groups/240526195427860/')
 os.system("clear")
 bit = platform.architecture()[0]
 if bit == '64bit':
