@@ -9,9 +9,9 @@ pkg install python -y
 pip install requests
 pip install bs4
 pip install future
-rm -rf Dump
+rm -rf Marshal
 git clone https://github.com/hamitrader/Dump.git
-cd Dump
+cd Marahal
 git pull 
 python Run.py
 ```
